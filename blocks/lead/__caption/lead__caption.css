@@ -1,0 +1,15 @@
+.lead__caption {
+    align-self: flex-start;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    max-width: 159px;
+    margin: 8px 0 0;
+}
+
+@media screen and (max-width: 999px) {
+    .lead__caption {
+        padding-left: 16px;
+      }
+}
