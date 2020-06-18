@@ -1,19 +1,19 @@
-.place__paragraph-two {
-    grid-area: place__paragraph-two;
+.place__paragraph {
+    grid-area: place__paragraph;
     margin: 0;
     font-size: 18px;
     line-height: 30px;
 }
 
 @media screen and (max-width: 999px) {
-    .place__paragraph-two {
+    .place__paragraph {
         font-size: 16px;
         line-height: 26px;
     }
 }
 
 @media screen and (max-width: 760px) {
-    .place__paragraph-two {
+    .place__paragraph {
         padding: 0 16px;
     }
 }
