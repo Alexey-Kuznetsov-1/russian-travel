@@ -4,7 +4,6 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__link/place__link.css);
 @import url(./__paragraph/place__paragraph.css);
-@import url(./__text/place__text.css);
 
 .place {
     display: grid;
@@ -13,8 +12,8 @@
     grid-template-columns: 460px 1fr;
     grid-template-areas:
     "place__title place__website"
-    "place__image place__paragraph"
-    "place__image place__text"
+    "place__image ."
+    "place__image ."
     "place__image ."
 }
 
@@ -25,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 999x) {
+@media screen and (max-width: 999px) {
     .place {
         grid-template-columns: 340px 1fr;
         grid-gap: 24px 28px;
@@ -42,6 +41,6 @@
         grid-template-areas:
         "place__title"
         "place__image"
-        "place__paragraph"
-        "place__text"
+        "."
     }
+}

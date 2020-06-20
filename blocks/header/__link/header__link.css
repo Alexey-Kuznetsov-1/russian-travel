@@ -7,8 +7,8 @@
     width: 30px;
 }
 
-.header__link:focus {
-    text-decoration: underline;
+.header__link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 760px) {
