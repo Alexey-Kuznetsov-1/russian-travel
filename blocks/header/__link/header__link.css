@@ -7,6 +7,10 @@
     width: 30px;
 }
 
+.header__link:nth-child(1) {
+    margin-right: 18px;
+}
+
 .header__link:hover {
     opacity: 0.8;
 }
